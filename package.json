@@ -1,0 +1,32 @@
+{
+  "name": "@dakohhh/hellow_world_ts",
+  "version": "1.0.1",
+  "description": "hellow_world is the silliest Javascript package you'll ever need! It simply says \"Hellow, world!\" — because who needs proper spelling anyway?",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dakohhh/hellow_world_ts.git"
+  },
+  "keywords": [
+    "HelloWorld"
+  ],
+  "author": "dakohhh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dakohhh/hellow_world_ts/issues"
+  },
+  "homepage": "https://github.com/dakohhh/hellow_world_ts#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  }
+}
